@@ -1,0 +1,58 @@
+/* img[src="./assets/foto-perfil.jpeg"]{
+    width: 150px;
+    height: 150px;
+} */
+
+.rounded-circlee{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgba(156, 153, 153, 0.87);
+    padding: 0.3rem;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.mhhover:hover, .mhhover:focus{
+    cursor: pointer ;
+    opacity: 0.7;
+    background-color: white;
+}
+
+#verif-img {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+#div-verif-img {
+    padding-top: 0.4rem;
+    padding-left: 0.3rem;
+}
+
+img[src="./assets/foto-perfil.jpeg"] {
+    /* border: 2px solid rgba(233, 65, 65, 0.87);  */
+    border: 2px solid rgba(118, 233, 65, 0.87);
+    margin: 3rem;
+    padding: 0.3rem;
+}
+
+body {
+    background-color: rgba(250, 246, 246, 0.87);
+}
+
+header {
+    background-color: white;
+    border-bottom: solid 1px rgb(221, 217, 217);
+}
+
+.navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(156, 153, 153, 0.87);
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
